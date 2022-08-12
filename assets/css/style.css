@@ -1,0 +1,174 @@
+:root{
+    --primary-color: #070333;
+    --white-color: #fff;
+    --gap: 3rem;
+    --secondary-color: rgb(19, 9, 80);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+/* font-family: 'Poppins', sans-serif; */
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.6rem;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{
+    font-size: 6rem;
+}
+
+h2{
+    font-size: 5.5rem;
+}
+
+h3{
+    font-size: 5rem;
+}
+
+h4{
+    font-size: 4.5rem;
+}
+
+h5{
+    font-size: 4rem;
+}
+
+h6{
+    font-size: 3.5rem;
+}
+
+a{
+    text-decoration: none;
+}
+p{
+    font-size: 1.6rem;
+}
+ul li{
+    list-style: none;
+}
+
+.main-bg{
+    background-image: url("../img/main-bg.svg");
+    background-size: cover;
+    background-position: center center;
+    color: var(--white-color);
+}
+
+.white-bg{
+    background-color: var(--white-color);
+    color: var(--primary-color);
+}
+
+.main-content{
+    max-width: 120rem;
+    margin: auto auto;
+}
+
+.section{
+    height: 100vh;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--gap);
+}
+
+.cabecalho{
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    border-bottom: 0.2rem solid var(--light-gray-color);
+
+}
+
+.cabelho-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.cabecalho h1{
+    font-size: 3rem;
+}
+
+.cabecalho h1 a{
+    color: var(--primary-color);
+    transition: all 200ms ease-in-out;
+    -webkit-transition: all 200ms ease-in-out;
+    -moz-transition: all 200ms ease-in-out;
+    -ms-transition: all 200ms ease-in-out;
+    -o-transition: all 200ms ease-in-out;
+}
+
+.cabecalho h1 a:hover{
+    font-size: 3.2rem;
+    text-shadow: -0.1rem -0.1rem 0.1rem var(--secondary-color);
+}
+
+.cabecalho ul{
+    display: flex;
+}
+
+
+.cabecalho ul li a{
+    color: var(--primary-color);
+    font-size: 1.8rem;
+    padding: 2rem;
+    font-weight: 600;
+    transition:all 200ms ease-in-out ;
+    -webkit-transition:all 200ms ease-in-out ;
+    -moz-transition:all 200ms ease-in-out ;
+    -ms-transition:all 200ms ease-in-out ;
+    -o-transition:all 200ms ease-in-out ;
+}
+
+.cabecalho ul li a:hover{
+    font-size: 2rem;    
+    text-shadow: -0.1rem -0.1rem 0.1rem var(--secondary-color);
+}
+
+.menu-content{
+    height: 7rem;
+}
+
+.span-height{
+    height: 7rem;
+}
+
+.sobre-mim{
+    min-width: 30rem;
+    padding: 3rem;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.imagem1{
+    width: 100%;
+    height: auto;
+}
+
+.conteudo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
